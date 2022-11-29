@@ -1,0 +1,74 @@
+.App {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.card{
+  width: 60vw;
+  padding: 40px 20px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 50px;
+  
+}
+.card h1{
+  margin: 0px;
+  width: 30%;
+}
+
+header button{
+  width: 50px;
+  height: 50px;
+  background-image: #eee;
+  border-radius: 50%;
+  border: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.questions div{
+     box-shadow: 1px 0px 20px 0px #EEE;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.questions{
+  width: 75%;
+}
+
+h2{
+  margin: 0px;
+}
+button {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+@media (max-width:750px) {
+  .card{
+    flex-direction: column;
+  }
+  .card h1{
+    width: 100%;
+  }
+  .questions{
+    width: 100%;
+  }
+  
+}
